@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "StayLogged",
+    "version": "1.0",
+    "description": "Prevents auto logout due to inactivity.",
+    "permissions": ["scripting", "webNavigation"],
+    "host_permissions": ["https://erp.iitkgp.ac.in/*"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
