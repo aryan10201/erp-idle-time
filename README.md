@@ -25,6 +25,8 @@ This extension prevents automatic logout due to inactivity on the website [ERP I
 - Once installed, the extension runs automatically on the specified website.
 - Simulates periodic user activity every 60 seconds.
 - Optionally sends keep-alive requests every 5 minutes to maintain session.
+- Testing: Open the specified website (https://erp.iitkgp.ac.in) and check the Developer Console for logs like "Content script injected for https://erp.iitkgp.ac.in".
+- If you see the above log, it means that the extension is working.
 
 ## Development
 
